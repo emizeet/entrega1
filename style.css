@@ -1,0 +1,126 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* navBar */
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 160px;
+}
+
+.navBar img {
+    max-width: 10rem;
+    max-height: 10rem;
+    margin: 0 auto;
+}
+
+.navBar li {
+    display: inline;
+    list-style: none;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: white;;
+}
+
+.navOpts {
+}
+
+/* BODY */
+
+body {
+    background-color: black;
+}
+
+/* BODY POSTRES FLEXBOX */
+
+.cajasCards {
+    display: flex;
+    flex-direction: row;
+    padding: 1.25rem;
+    gap: 1.25rem;
+}
+.styleCard {
+    width: 50%;
+    height: 50vh;
+    background-color: white;
+    border: 2px solid rgb(194, 123, 16);
+    text-align: center;
+    line-height: 6.25rem;
+}
+
+.cajasImg {
+    display: flex;
+    max-width: 100%;
+    max-height: 25rem;
+    margin: 10px;
+    gap: 15px;
+}
+
+.cajasImg .styleImg1 {
+    width: 30rem;
+    height: 31.25rem;
+
+}
+
+.cajasImg .styleImg1 img {
+    width: 100%;
+}
+
+.cajasImg .styleImg2 {
+    width: 30rem;
+    height: 31.25rem;
+
+}
+
+.cajasImg .styleImg2 img {
+    width: 100%;
+}
+
+.cajasImg .styleimg3 {
+    width: 30rem;
+    height: 31.25rem;
+
+}
+
+.cajasImg .styleimg3 img {
+    width: 100%;
+}
+
+/* FOOTER */
+
+
+.creditosCreador {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+footer .creditosCreador img {
+    max-width: 10rem;
+    max-height: 10rem;
+    margin-left: 10%;
+}
+
+footer .news {
+    
+}
+
+
+/* FOOTER BOOTSTRAP */
+
+footer .bootStrap {
+    
+}
